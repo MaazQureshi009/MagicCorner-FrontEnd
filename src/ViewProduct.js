@@ -78,9 +78,9 @@ const ProductView = (Received) => {
                     <div className='container col-6 float-start mt-2 content-div'>
                         <p className="view-product-name">{Item.name}</p>
                         <p className="product-description">{Item.description}</p>
-                        <p className="product-description">Dimensions : {Item.length} X {Item.width} X {Item.height} M(L x B x H)</p>
+                        <p className="product-description">Dimensions : {Item.length} x {Item.width} x {Item.height} M(L x B x H)</p>
                         <p className="product-extras">Seller Tell's:</p>
-                        <p>{Item.extras}</p>
+                        <p className='extra-desc'>{Item.extras}</p>
                         <p className="product-discount-price">{parseInt(((parseInt(Item.oldprice) - parseInt(Item.newprice))/parseInt(Item.oldprice))*100)}% off</p>
                         <s className="strike"><p className="slashed-price">Rs: {Item.oldprice}</p></s>
                         <p className="live-price">Rs: {Item.newprice}</p>

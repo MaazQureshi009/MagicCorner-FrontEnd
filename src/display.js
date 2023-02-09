@@ -91,14 +91,14 @@ function Display(){
                             <div className='contents-div'>
                                 <div className='contents'>
                                     <p className='product-name'>{value.name}</p>
-                                    <p className='product-price'><s className='strike'><span className='text-color'>Rs:{value.oldprice}</span></s> Rs:{value.newprice}</p>
+                                    <p className='product-price'><s className='strike'><span className='cut-price text-color'>Rs:{value.oldprice}</span></s> Rs:{value.newprice}</p>
                                 </div>
                                 <div className='buttons'>
                                     {(Location.state === null)?
                                     <>
                                         <button className='add-button' onClick={()=>{
                                             Navigate("/Login")
-                                        }}>Add to Cart</button>
+                                        }}>ADD TO CART</button>
                                         <button className='wish-button' onClick={()=>{
                                             Navigate("/Login")
                                         }}><i class="fi fi-rs-heart end-icons wish-icon"></i></button>

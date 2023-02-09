@@ -29,11 +29,13 @@
 }
 
 .view-product-name{
-    font-size:2em;
+  font-family: 'Garamond';
+    font-size:1.7em;
     margin-bottom: 0;
 }
 
 .product-description{
+    font-family: 'Garamond';
     font-size:1.4em;
 }
 
@@ -46,8 +48,13 @@
 }
 
 .product-extras{
+    font-family: 'Garamond';
     margin-bottom:0;
     font-size:1.4em;
+}
+
+.extra-desc {
+    font-family: 'Garamond';
 }
 
 .view-warning{
@@ -56,6 +63,7 @@
 }
 
 .product-discount-price{
+    font-family: 'Garamond';
     background-color:red;
     color:white;
     border-radius:2em;
@@ -67,23 +75,27 @@
 .strike{
     color:red;
     opacity:0.75;
-    font-size:1.2em;
+    /* font-size:1.2em; */
     margin-bottom:0;
     margin-top:1em;
 }
 
 .slashed-price{
+    font-size:1.3em;
+    font-family: 'Garamond';
     color:black;
     margin-bottom:0;
 }
 
 .live-price{
-    font-size:2em;
+    font-family: 'Garamond';
+    font-size:1.7em;
     margin-top:0em;
     padding-top:0em;
 }
 
 .cart-button{
+    font-family: 'Garamond';
     border:none;
     outline:none;
     background-color:black;
